@@ -11,3 +11,5 @@ Adicionar também as dependências e builds
 
 
 Criar a classe Principal: VendasApplication
+
+Adicionar Dependências Starter, dependências mais comums e usadas
