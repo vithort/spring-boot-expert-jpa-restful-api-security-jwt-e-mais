@@ -14,7 +14,6 @@ public class ClientesService {
         this.repository = repository;
     }
 
-
     public void salvarCliente(Cliente cliente) {
         validarCliente(cliente);
         this.repository.persistir(cliente);
