@@ -33,3 +33,13 @@ Container IOC -> @Component -----> @Controller
                             \----> @Service
 ```
 
+Propriedades Spring Boot Properties: https://docs.spring.io/spring-boot/docs/current/reference/html/appendix-application-properties.html
+
+create table cliente (
+    id int not null primary key,
+    nome varchar(100)
+)
+
+Spring Boot utiliza HikariCP como DataSource (Pool de conexões): https://github.com/brettwooldridge/HikariCP
+
+
