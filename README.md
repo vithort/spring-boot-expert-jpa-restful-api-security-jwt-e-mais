@@ -119,6 +119,8 @@ Mapeamento Classe ItemPedido
 
 ## 30. Criando os Repositorios das Entidades
 
+Criando demais repositórios
+
 ## 31. Fazendo Consultas com Relacionamentos JPA
 
 ## 32. Carregando os Pedidos por Cliente
