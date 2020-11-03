@@ -86,6 +86,8 @@ Refatorado todo o Clientes.java
 
 ## 23. Introdução aos Repositórios Spring Data
 
+Limpeza dos Códigos para usar o JPA Repository
+
 ## 24. Query Methods
 
 ## 25. Logando o SQL Gerado no Console
