@@ -64,32 +64,34 @@ Para criar automaticamente as tabelas ao iniciar o Spring Boot, criar o arquivo 
 
 Criados em java/io.github.dougllasfps/domain.entity/
 
-## 18. Salvando e recuperando clientes
+## 18. Salvando e Recuperando Clientes
 
-## 19. Concluindo o cadastro de clientes
+Criados métodos para listar e criar cliente
+
+## 19. Concluindo o Cadastro de Clientes
 
 ## 20. Mapeando a Entidade Cliente para JPA
 
-## 21. Persistindo entidades com Entity Manager
+## 21. Persistindo Entidades com Entity Manager
 
-## 22. Refatorando as outras operacoes para o JPA
+## 22. Refatorando as Outras Operações para o JPA
 
-## 23. Introdução aos repositórios Spring Data
+## 23. Introdução aos Repositórios Spring Data
 
 ## 24. Query Methods
 
-## 25. Logando o SQL gerado no console
+## 25. Logando o SQL Gerado no Console
 
 ## 26. Trabalhando com @Query
 
-## 27. Mapeando a entidade Produto
+## 27. Mapeando a Entidade Produto
 
-## 28. Mapeando a entidade Pedido
+## 28. Mapeando a Entidade Pedido
 
 ## 29. Mapeando ItemsPedido
 
-## 30. Criando os Repositorios das entidades
+## 30. Criando os Repositorios das Entidades
 
-## 31. Fazendo consultas com relacionamentos JPA
+## 31. Fazendo Consultas com Relacionamentos JPA
 
-## 32. Carregando os pedidos por cliente
+## 32. Carregando os Pedidos por Cliente
