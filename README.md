@@ -103,6 +103,8 @@ spring.jpa.properties.hibernate.format_sql=true
 
 ## 26. Trabalhando com @Query
 
+Exemplos de Consultas: JPQL e SQL Nativa
+
 ## 27. Mapeando a Entidade Produto
 
 ## 28. Mapeando a Entidade Pedido

@@ -26,6 +26,10 @@ public class VendasApplication {
             boolean existe = clientes.existsByNome("Dougllas");
             System.out.println("Existe um cliente com o nome Dougllas?  " + existe);
 
+            // Listar Clientes com @Query
+            List<Cliente> result = clientes.encontrarPorNome("Dougllas");
+            result.forEach(System.out::println);
+
         };
     }
 
