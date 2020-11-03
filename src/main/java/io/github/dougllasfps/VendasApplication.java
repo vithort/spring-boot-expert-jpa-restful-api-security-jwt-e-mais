@@ -24,6 +24,8 @@ public class VendasApplication {
             // ou assim:
             clientes.salvar(new Cliente("Outro Cliente"));
 
+
+            /*
             // Listar Clientes:
             System.out.println("Listar Clientes: ");
             List<Cliente> todosClientes = clientes.obterTodos();
@@ -44,7 +46,7 @@ public class VendasApplication {
             // Listar Clientes por Nome:
             System.out.println("Listar Clientes por Nome: ");
             clientes.buscarPorNome("Cli").forEach(System.out::println);
-
+*/
             // Deletar Clientes:
             /*
             System.out.println("Deletar Clientes: ");
@@ -52,7 +54,7 @@ public class VendasApplication {
                 clientes.deletar(c);
             });
              */
-
+/*
             // Listar Clientes:
             System.out.println("Listar Clientes: ");
             todosClientes = clientes.obterTodos();
@@ -61,6 +63,7 @@ public class VendasApplication {
             } else {
                 todosClientes.forEach(System.out::println);
             }
+            */
         };
     }
 
