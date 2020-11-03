@@ -70,6 +70,8 @@ Criados métodos para listar e criar cliente
 
 ## 19. Concluindo o Cadastro de Clientes
 
+Criando métodos para update e delete de cliente
+
 ## 20. Mapeando a Entidade Cliente para JPA
 
 ## 21. Persistindo Entidades com Entity Manager
