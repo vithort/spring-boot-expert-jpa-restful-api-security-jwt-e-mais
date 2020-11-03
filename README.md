@@ -107,6 +107,8 @@ Exemplos de Consultas: JPQL e SQL Nativa
 
 ## 27. Mapeando a Entidade Produto
 
+Mapeamento Classe Produto
+
 ## 28. Mapeando a Entidade Pedido
 
 ## 29. Mapeando ItemsPedido
