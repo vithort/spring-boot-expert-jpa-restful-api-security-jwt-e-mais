@@ -74,6 +74,8 @@ Criando métodos para update e delete de cliente
 
 ## 20. Mapeando a Entidade Cliente para JPA
 
+Mudando a Classe Cliente incluindo as notations
+
 ## 21. Persistindo Entidades com Entity Manager
 
 ## 22. Refatorando as Outras Operações para o JPA

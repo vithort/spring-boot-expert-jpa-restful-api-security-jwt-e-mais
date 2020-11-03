@@ -1,8 +1,19 @@
 package io.github.dougllasfps.domain.entity;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "cliente")
+// se a tabela não tiver o mesmo nome, incluir a notation @Table
+// @table inclui tambem outros dados: @Table(name="tb_cliente", schema="vendas")
 public class Cliente {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id")// se o nome da coluna for diferente
     private Integer id;
+
+    @Column(name = "nome", length = 100)
     private String nome;
 
     public Cliente() {
