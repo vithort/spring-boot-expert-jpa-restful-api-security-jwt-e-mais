@@ -113,7 +113,9 @@ Mapeamento Classe Produto
 
 Mapeamento Classe Pedido
 
-## 29. Mapeando ItemsPedido
+## 29. Mapeando ItemPedido
+
+Mapeamento Classe ItemPedido
 
 ## 30. Criando os Repositorios das Entidades
 
