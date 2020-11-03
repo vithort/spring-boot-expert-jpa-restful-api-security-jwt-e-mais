@@ -78,7 +78,11 @@ Mudando a Classe Cliente incluindo as notations
 
 ## 21. Persistindo Entidades com Entity Manager
 
+Refatorado List e Insert
+
 ## 22. Refatorando as Outras Operações para o JPA
+
+Refatorado todo o Clientes.java
 
 ## 23. Introdução aos Repositórios Spring Data
 
