@@ -90,7 +90,16 @@ Limpeza dos Códigos para usar o JPA Repository
 
 ## 24. Query Methods
 
+Métodos customizados do JPA
+
 ## 25. Logando o SQL Gerado no Console
+
+Inserir as linhas abaixo no application.properties para melhor visualizar os dados:
+
+```
+spring.jpa.properties.hibernate.show_sql=true
+spring.jpa.properties.hibernate.format_sql=true
+```
 
 ## 26. Trabalhando com @Query
 
