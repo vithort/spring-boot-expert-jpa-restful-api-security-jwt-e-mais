@@ -10,7 +10,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/api/clientes") // define rota base da api
 public class ClienteController {
 
-    @RequestMapping(value = "/hello/{nome}", method = RequestMethod.GET)
+    @RequestMapping(
+            value = {"/hello/{nome}", "/hellow/{nome}"},
+            method = RequestMethod.GET
+            // consumes = {"application/json", "application/xml"} // para métodos POST
+            // produces = {"application/json", "application/xml"}
+    )
     @ResponseBody
     public String helloClientes(@PathVariable("nome") String nomeCliente) {
         return String.format("Hello %s!", nomeCliente);

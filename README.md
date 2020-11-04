@@ -135,6 +135,8 @@ Limpeza do Código VendasApplication e Criação / configuração do Controller
 
 ## 35. Mapeando as Requisições com Request Mapping
 
+Observações do Request Mapping
+
 ## 36. Requisição GET com Parâmentros e Response Entity
 
 ## 37. Requisicão POST e Request Body
