@@ -124,3 +124,5 @@ Criando demais repositórios
 ## 31. Fazendo Consultas com Relacionamentos JPA
 
 ## 32. Carregando os Pedidos por Cliente
+
+Correção da aula anterior...
