@@ -1,34 +1,43 @@
 package io.github.dougllasfps;
 
 import io.github.dougllasfps.domain.entity.Cliente;
+import io.github.dougllasfps.domain.entity.Pedido;
 import io.github.dougllasfps.domain.repository.Clientes;
+import io.github.dougllasfps.domain.repository.Pedidos;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.util.List;
 
 @SpringBootApplication
 public class VendasApplication {
 
     @Bean
-    public CommandLineRunner init(@Autowired Clientes clientes) {
+    public CommandLineRunner init(
+            @Autowired Clientes clientes,
+            @Autowired Pedidos pedidos
+    ) {
         return args -> {
             // Salvar Clientes:
-            System.out.println("Salvar Clientes: ");
-            clientes.save(new Cliente("Dougllas"));
-            clientes.save(new Cliente("Outro Cliente"));
+            System.out.println("Salvar Cliente: ");
+            Cliente fulano = new Cliente("Fulano");
+            clientes.save(fulano);
 
-            // Listar Clientes:
-            System.out.println("Listar Clientes: ");
-            boolean existe = clientes.existsByNome("Dougllas");
-            System.out.println("Existe um cliente com o nome Dougllas?  " + existe);
+            Pedido p = new Pedido();
+            p.setCliente(fulano);
+            p.setDataPedido(LocalDate.now());
+            p.setTotal(BigDecimal.valueOf(100));
 
-            // Listar Clientes com @Query
-            List<Cliente> result = clientes.encontrarPorNome("Dougllas");
-            result.forEach(System.out::println);
+            pedidos.save(p);
+
+            Cliente cliente = clientes.findClienteFetchPedidos(fulano.getId());
+            System.out.println(cliente);
+            System.out.println(cliente.getPedidos());
 
         };
     }
