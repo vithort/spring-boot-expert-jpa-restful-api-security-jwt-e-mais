@@ -26,12 +26,6 @@ public class ClienteController {
     public ResponseEntity<Cliente> getClienteById(@PathVariable Integer id) {
         Optional<Cliente> cliente = clientes.findById(id);
         if(cliente.isPresent()){
-            /*
-            HttpHeaders headers = new HttpHeaders();
-            headers.put("Authorization", "token");
-            ResponseEntity<Cliente> responseEntity =
-                    new ResponseEntity<>(cliente.get(), HttpStatus.OK);
-            */
             return ResponseEntity.ok(cliente.get());
         }
         return ResponseEntity.notFound().build();
@@ -42,6 +36,17 @@ public class ClienteController {
     public ResponseEntity save(@RequestBody Cliente cliente) {
         Cliente clienteSalvo = clientes.save(cliente);
         return ResponseEntity.ok(clienteSalvo);
+    }
+
+    @DeleteMapping("/{id}")
+    @ResponseBody
+    public ResponseEntity delete(@PathVariable Integer id) {
+        Optional<Cliente> cliente = clientes.findById(id);
+        if(cliente.isPresent()){
+            clientes.delete(cliente.get());
+            return ResponseEntity.noContent().build();
+        }
+        return ResponseEntity.notFound().build();
     }
 
 
