@@ -131,6 +131,8 @@ Correção da aula anterior...
 
 ## 34. Criando o Controller de Clientes
 
+Limpeza do Código VendasApplication e Criação / configuração do Controller
+
 ## 35. Mapeando as Requisições com Request Mapping
 
 ## 36. Requisição GET com Parâmentros e Response Entity
