@@ -167,6 +167,10 @@ Criação dos DTOs
 
 ## 48. Utilizando o Projeto Lombok
 
+Adicionado a Biblioteca [Lombok] (https://projectlombok.org/)
+
+Refatorado o Projeto
+
 ## 49. Método para Realização de um Pedido
 
 ## 50. Realizando um Pedido Através do Postman
