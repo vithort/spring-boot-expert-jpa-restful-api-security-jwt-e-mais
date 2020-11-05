@@ -159,6 +159,8 @@ API Produtos completa
 
 ## 46. Criação do Controller e Serviço de Pedidos
 
+Criação / Implementação da Camada de Serviço para Pedidos
+
 ## 47. Trabalhando com o Modelo DTO
 
 ## 48. Utilizando o Projeto Lombok
