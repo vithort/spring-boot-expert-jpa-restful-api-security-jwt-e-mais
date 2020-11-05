@@ -150,15 +150,12 @@ Observações do Request Mapping
 ## 41. @ResponseStatus e @RestController: Refatorando API de Clientes
 
 Ao usar a notation @RestController ao invés de @Controller, não é mais necessário usar as notations @ResponseBody, pois a mesma já a contém.
+
 Refatorado para padrão RESTful.
-
-## 42. Testando a Api de Clientes no Postman
-
-## 43. Desafio da API de Produtos
 
 ## 44. Implementando a API de Produtos
 
-## 45. Testando a API de Produtos no Postman
+API Produtos completa
 
 ## 46. Criação do Controller e Serviço de Pedidos
 
