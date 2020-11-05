@@ -163,6 +163,8 @@ Criação / Implementação da Camada de Serviço para Pedidos
 
 ## 47. Trabalhando com o Modelo DTO
 
+Criação dos DTOs
+
 ## 48. Utilizando o Projeto Lombok
 
 ## 49. Método para Realização de um Pedido
