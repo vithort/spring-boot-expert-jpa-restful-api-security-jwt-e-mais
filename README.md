@@ -189,7 +189,9 @@ Consultar detalhes do pedido
 
 Adicionando um atributo de Status do Pedido
 
-## 55. Patch Mapping - Realizando Cancelamento de Pedidos
+## Patch Mapping - Realizando Cancelamento de Pedidos
+
+Método para Cancelar o pedido
 
 # Bean Validation
 

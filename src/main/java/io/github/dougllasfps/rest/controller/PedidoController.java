@@ -2,6 +2,8 @@ package io.github.dougllasfps.rest.controller;
 
 import io.github.dougllasfps.domain.entity.ItemPedido;
 import io.github.dougllasfps.domain.entity.Pedido;
+import io.github.dougllasfps.domain.enums.Statuspedido;
+import io.github.dougllasfps.rest.dto.AtualizacaoStatusPedidoDTO;
 import io.github.dougllasfps.rest.dto.InformacaoItemPedidoDTO;
 import io.github.dougllasfps.rest.dto.InformacoesPedidoDTO;
 import io.github.dougllasfps.rest.dto.PedidoDTO;
@@ -54,6 +56,16 @@ public class PedidoController {
                 .status(pedido.getStatus().name())
                 .items(converter(pedido.getItens()))
                 .build();
+    }
+
+    @PatchMapping("{id}")
+    @ResponseStatus(NO_CONTENT)
+    public void updateStatus(
+            @PathVariable Integer id,
+            @RequestBody AtualizacaoStatusPedidoDTO dto
+    ) {
+        String novoStatus = dto.getNovoStatus();
+        service.atualizaStatus(id, Statuspedido.valueOf(novoStatus));
     }
 
     private List<InformacaoItemPedidoDTO> converter(List<ItemPedido> itens) {
