@@ -173,6 +173,8 @@ Refatorado o Projeto
 
 ## 49. Método para Realização de um Pedido
 
+Finalizado o Pedido
+
 ## 50. Realizando um Pedido Através do Postman
 
 ## 51. Spring Boot Dev Tools
