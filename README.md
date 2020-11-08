@@ -185,7 +185,9 @@ Incluir no pom.xml a dependência para não precisar mais ficar reiniciando o Pr
 
 Consultar detalhes do pedido
 
-## 54. Criando o Status do Pedido
+## Criando o Status do Pedido
+
+Adicionando um atributo de Status do Pedido
 
 ## 55. Patch Mapping - Realizando Cancelamento de Pedidos
 

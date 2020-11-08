@@ -1,5 +1,6 @@
 package io.github.dougllasfps.domain.entity;
 
+import io.github.dougllasfps.domain.enums.Statuspedido;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -30,6 +31,10 @@ public class Pedido {
 
     @Column(name = "total", precision = 20, scale = 2)
     private BigDecimal total;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "status")
+    private Statuspedido status;
 
     @OneToMany(mappedBy = "pedido")
     private List<ItemPedido> itens;
