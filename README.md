@@ -179,7 +179,7 @@ Finalizado o Pedido
 
 Incluir no pom.xml a dependência para não precisar mais ficar reiniciando o Projeto para verificar atualizações, basta recompilar: CTRL + F9
 
-## 52. Utilizando o Controller Advice e os ExceptionHandlers para Tratar Erros na API
+## Utilizando o Controller Advice e os ExceptionHandlers para Tratar Erros na API
 
 ## 53. Obtendo os Detalhes de um Pedido
 
