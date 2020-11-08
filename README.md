@@ -181,7 +181,9 @@ Incluir no pom.xml a dependência para não precisar mais ficar reiniciando o Pr
 
 ## Utilizando o Controller Advice e os ExceptionHandlers para Tratar Erros na API
 
-## 53. Obtendo os Detalhes de um Pedido
+## Obtendo os Detalhes de um Pedido
+
+Consultar detalhes do pedido
 
 ## 54. Criando o Status do Pedido
 
