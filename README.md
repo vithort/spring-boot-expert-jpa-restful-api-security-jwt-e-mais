@@ -215,7 +215,7 @@ Validações Pedido
 
 Validação Customizada
 
-## 62. Internacionalização
+## Internacionalização
 
 # Spring Security e JWT
 
