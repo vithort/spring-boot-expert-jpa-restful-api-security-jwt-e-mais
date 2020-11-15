@@ -199,7 +199,9 @@ Método para Cancelar o pedido
 
 Criando validação do campo Cliente > Nome
 
-## 58. Validando a Entidade cliente
+## Validando a Entidade Cliente
+
+Outras Validações
 
 ## 59. Validando a Entidade Produto
 
