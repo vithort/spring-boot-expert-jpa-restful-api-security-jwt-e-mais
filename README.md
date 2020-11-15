@@ -207,7 +207,9 @@ Outras Validações
 
 Validações Produto, precisa da annotation @Valid no save e update
 
-## 60. Validando a Entidade Pedido
+## Validando a Entidade Pedido
+
+Validações Pedido
 
 ## 61. Criando uma Annotation de Validação Customizada
 
