@@ -56,7 +56,7 @@ public class ClienteController {
     @ResponseStatus(NO_CONTENT)
     public void update(
             @PathVariable Integer id,
-            @RequestBody Cliente cliente
+            @RequestBody @Valid Cliente cliente
     ) {
         repository
                 .findById(id)

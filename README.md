@@ -203,7 +203,9 @@ Criando validação do campo Cliente > Nome
 
 Outras Validações
 
-## 59. Validando a Entidade Produto
+## Validando a Entidade Produto
+
+Validações Produto, precisa da annotation @Valid no save e update
 
 ## 60. Validando a Entidade Pedido
 
