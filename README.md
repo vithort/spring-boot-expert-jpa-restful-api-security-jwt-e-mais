@@ -195,7 +195,9 @@ Método para Cancelar o pedido
 
 # Bean Validation
 
-## 57. Utilizando e Testando o Bean Validation
+## Utilizando e Testando o Bean Validation
+
+Criando validação do campo Cliente > Nome
 
 ## 58. Validando a Entidade cliente
 
