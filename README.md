@@ -279,6 +279,8 @@ Registrar filtro no Spring Security
 
 ## Implementando o Método de Autenticação de Usuários
 
+Finalizando
+
 ## Testando o Token JWT no Postman
 
 # Migração para o Banco MySQL
