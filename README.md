@@ -219,7 +219,9 @@ Validação Customizada
 
 # Spring Security e JWT
 
-## 64. Adicionando o Módulo Security
+## Adicionando o Módulo Security
+
+Adicionar dependência no pom.xml
 
 ## 65. Criando a Classe de Configuração do Security
 
