@@ -1,6 +1,6 @@
 package io.github.dougllasfps.domain.enums;
 
-public enum Statuspedido {
+public enum StatusPedido {
 
     REALIZADO,
     CANCELADO;
