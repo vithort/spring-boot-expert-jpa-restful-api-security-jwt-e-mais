@@ -233,7 +233,7 @@ Adicionar método de encoder
 
 ## Configurando Autenticação em Memória
 
-
+Configuração do Authentication Manage Builder
 
 ## Configurando a Autorização de URLs
 
