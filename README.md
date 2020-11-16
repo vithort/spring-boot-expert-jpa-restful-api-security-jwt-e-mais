@@ -275,6 +275,8 @@ Filtro implementado
 
 ## Finalizando a Configuração do JWT no Spring Security
 
+Registrar filtro no Spring Security
+
 ## Implementando o Método de Autenticação de Usuários
 
 ## Testando o Token JWT no Postman
