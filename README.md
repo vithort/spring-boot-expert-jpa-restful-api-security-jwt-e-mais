@@ -281,13 +281,11 @@ Registrar filtro no Spring Security
 
 Finalizando
 
-## Testando o Token JWT no Postman
-
 # Migração para o Banco MySQL
 
-## Conectando com o MySQL
-
 ## Fazendo a migração para o Banco MySQL
+
+Mudar parâmetros de conexão
 
 # Documentação de API com SWAGGER
 

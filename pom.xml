@@ -54,6 +54,12 @@
             <artifactId>h2</artifactId>
         </dependency>
 
+        <!-- mysql-connector-java  -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
         <!-- lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
