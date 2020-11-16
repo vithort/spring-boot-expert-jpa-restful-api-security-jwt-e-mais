@@ -263,6 +263,8 @@ Finalizando
 
 ## Gerando o Token
 
+Token
+
 ## Decodificando o Token
 
 ## Implementando o Filtro do JWT
