@@ -229,7 +229,11 @@ Criar Classe Security
 
 ## Password Encoder
 
+Adicionar método de encoder
+
 ## Configurando Autenticação em Memória
+
+
 
 ## Configurando a Autorização de URLs
 
