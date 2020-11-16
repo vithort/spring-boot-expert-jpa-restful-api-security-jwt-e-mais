@@ -223,56 +223,58 @@ Validação Customizada
 
 Adicionar dependência no pom.xml
 
-## 65. Criando a Classe de Configuração do Security
+## Criando a Classe de Configuração do Security
 
-## 66. Password Encoder
+Criar Classe Security
 
-## 67. Configurando Autenticação em Memória
+## Password Encoder
 
-## 68. Configurando a Autorização de URLs
+## Configurando Autenticação em Memória
 
-## 69. Configurando as Roles e Authorities
+## Configurando a Autorização de URLs
 
-## 70. Autenticação Basic
+## Configurando as Roles e Authorities
 
-## 71. Implementação do UserDetailsService
+## Autenticação Basic
 
-## 72. Implementando o Cadastro de Usuários
+## Implementação do UserDetailsService
 
-## 73. Testando a Autenticação com Cadastro de Usuários
+## Implementando o Cadastro de Usuários
 
-## 74. Introdução ao JWT
+## Testando a Autenticação com Cadastro de Usuários
 
-## 75. Gerando o Token
+## Introdução ao JWT
 
-## 76. Decodificando o Token
+## Gerando o Token
 
-## 77. Implementando o Filtro do JWT
+## Decodificando o Token
 
-## 78. Finalizando a Configuração do JWT no Spring Security
+## Implementando o Filtro do JWT
 
-## 79. Implementando o Método de Autenticação de Usuários
+## Finalizando a Configuração do JWT no Spring Security
 
-## 80. Testando o Token JWT no Postman
+## Implementando o Método de Autenticação de Usuários
+
+## Testando o Token JWT no Postman
 
 # Migração para o Banco MySQL
 
-## 81. Conectando com o MySQL
+## Conectando com o MySQL
 
-## 82. Fazendo a migração para o Banco MySQL
+## Fazendo a migração para o Banco MySQL
 
 # Documentação de API com SWAGGER
 
-## 83. Configurando o Swagger
+## Configurando o Swagger
 
-## 84. Configurando o Security no Swagger
+## Configurando o Security no Swagger
 
-## 85. Customizando a UI da Documentação da API
+## Customizando a UI da Documentação da API
 
 # Build e Deploy
 
-## 86. Gerando o JAR
+## Gerando o JAR
 
-## 87. Gerando um Arquivo WAR
+## Gerando um Arquivo WAR
 
-## 88. Profiles Maven para Builds Diferentes
+## Profiles Maven para Builds Diferentes
