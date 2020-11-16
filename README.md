@@ -253,6 +253,8 @@ Implementação
 
 ## Implementando o Cadastro de Usuários
 
+Implementação do cadastro do usuário
+
 ## Testando a Autenticação com Cadastro de Usuários
 
 ## Introdução ao JWT
