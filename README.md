@@ -237,6 +237,8 @@ Configuração do Authentication Manage Builder
 
 ## Configurando a Autorização de URLs
 
+Configuração do configure(HttpSecurity)
+
 ## Configurando as Roles e Authorities
 
 ## Autenticação Basic
