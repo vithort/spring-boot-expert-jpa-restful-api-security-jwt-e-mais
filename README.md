@@ -249,6 +249,8 @@ Configurando autenticação Basic
 
 ## Implementação do UserDetailsService
 
+Implementação
+
 ## Implementando o Cadastro de Usuários
 
 ## Testando a Autenticação com Cadastro de Usuários
