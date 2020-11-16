@@ -241,6 +241,8 @@ Configuração do configure(HttpSecurity)
 
 ## Configurando as Roles e Authorities
 
+Configuração completa
+
 ## Autenticação Basic
 
 ## Implementação do UserDetailsService
