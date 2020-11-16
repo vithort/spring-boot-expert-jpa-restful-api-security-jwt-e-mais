@@ -245,6 +245,8 @@ Configuração completa
 
 ## Autenticação Basic
 
+Configurando autenticação Basic
+
 ## Implementação do UserDetailsService
 
 ## Implementando o Cadastro de Usuários
