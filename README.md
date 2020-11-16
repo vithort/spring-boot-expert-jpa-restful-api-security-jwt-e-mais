@@ -257,6 +257,8 @@ Implementação do cadastro do usuário
 
 ## Testando a Autenticação com Cadastro de Usuários
 
+Finalizando
+
 ## Introdução ao JWT
 
 ## Gerando o Token
