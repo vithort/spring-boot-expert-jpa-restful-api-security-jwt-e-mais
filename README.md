@@ -267,6 +267,8 @@ Token
 
 ## Decodificando o Token
 
+Decode Token
+
 ## Implementando o Filtro do JWT
 
 ## Finalizando a Configuração do JWT no Spring Security
