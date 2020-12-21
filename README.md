@@ -291,6 +291,10 @@ Mudar parâmetros de conexão
 
 ## Configurando o Swagger
 
+Inclusão das dependências e configurações básicas
+
+https://github.com/mplushnikov/lombok-intellij-plugin/issues/952
+
 ## Configurando o Security no Swagger
 
 ## Customizando a UI da Documentação da API
