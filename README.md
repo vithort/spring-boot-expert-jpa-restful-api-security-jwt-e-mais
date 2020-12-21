@@ -343,3 +343,15 @@ executar mesmos comandos do JAR
 ```
 
 ## Profiles Maven para Builds Diferentes
+
+alterado configuracao de profiles do pom.xml e executar com os comandos abaixo
+
+```
+mvn clean package -P desenvolvimento
+```
+
+ou
+
+```
+mvn clean package -P producao
+```
