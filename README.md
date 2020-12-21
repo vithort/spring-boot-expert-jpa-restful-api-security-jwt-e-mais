@@ -297,6 +297,8 @@ https://github.com/mplushnikov/lombok-intellij-plugin/issues/952
 
 ## Configurando o Security no Swagger
 
+Habilitando consultas com Token no swagger
+
 ## Customizando a UI da Documentação da API
 
 # Build e Deploy
