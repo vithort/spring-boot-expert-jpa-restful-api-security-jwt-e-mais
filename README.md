@@ -301,6 +301,8 @@ Habilitando consultas com Token no swagger
 
 ## Customizando a UI da Documentação da API
 
+Customizando a UI do Swagger: ClienteController
+
 # Build e Deploy
 
 ## Gerando o JAR
