@@ -323,4 +323,23 @@ java -jar .\vendas-1.0-SNAPSHOT.jar
 
 ## Gerando um Arquivo WAR
 
+WAR (Web Archive)
+
+incluir no pom.xml a tag PACKAGING e dependencia do tomcat
+extender a classe principal
+
+executar mesmos comandos do JAR
+
+```
+<packaging>war</packaging>
+```
+
+```
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-tomcat</artifactId>
+    <scope>provided</scope>
+</dependency>
+```
+
 ## Profiles Maven para Builds Diferentes
