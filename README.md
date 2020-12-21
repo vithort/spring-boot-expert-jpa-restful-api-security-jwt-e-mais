@@ -307,6 +307,20 @@ Customizando a UI do Swagger: ClienteController
 
 ## Gerando o JAR
 
+JAR (Java Archive)
+
+Gerar o JAR
+
+```
+mvn clean package
+```
+
+Executar o JAR
+
+```
+java -jar .\vendas-1.0-SNAPSHOT.jar
+```
+
 ## Gerando um Arquivo WAR
 
 ## Profiles Maven para Builds Diferentes
